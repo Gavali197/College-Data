@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Load More</title>
+  <script src="../Assets/jQuary.js"></script>
+</head>
+<body>
+  <ul id="list"></ul>
+  <button id="loadMore">Load More</button>
+
+  <script>
+    var page = 1;
+    var limit = 5;
+
+    function loadPosts() {
+      $.ajax({
+        url: `https://jsonplaceholder.typicode.com/posts?_limit=${limit}&_page=${page}`,
+        method: "GET",
+        success: function(data){
+          if(data.length === 0){
+            $("#loadMore").prop("disabled", true).text("No more posts");
+            return;
+          }
+          data.forEach(post => {
+            $("#list").append("<li>" + post.title + "</li>");
+          });
+          page++;
+        },
+        error: function() {
+          alert("Error loading posts!");
+        }
+      });
+    }
+
+    // Load first set of posts automatically
+    loadPosts();
+
+    // Load more on button click
+    $("#loadMore").click(loadPosts);
+  </script>
+</body>
+</html>

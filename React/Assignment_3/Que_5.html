@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Client-Side Validation</title>
+  <script src="../Assets/jQuary.js"></script>
+  <style>
+    .error { color: red; margin-left: 10px; }
+  </style>
+</head>
+<body>
+  <form id="myForm">
+    Name: <input type="text" id="name">
+    <span id="nameError" class="error"></span><br><br>
+
+    Lastname: <input type="text" id="lastname">
+    <span id="lastnameError" class="error"></span><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    $(function() {
+      $("#myForm").submit(function(e) {
+        e.preventDefault(); // always prevent default first
+
+        var name = $("#name").val().trim();
+        var lastname = $("#lastname").val().trim();
+        var valid = true;
+
+        if (name === "") {
+          $("#nameError").text("Please enter your name.");
+          valid = false;
+        } else {
+          $("#nameError").text("");
+        }
+
+        if (lastname === "") {
+          $("#lastnameError").text("Please enter your last name.");
+          valid = false;
+        } else {
+          $("#lastnameError").text("");
+        }
+
+        if (valid) {
+          alert("Form submitted successfully! Name: " + name + " " + lastname);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

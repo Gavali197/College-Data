@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change state</title>
+  <script src="../Assets/jQuary.js"></script>
+</head>
+<body>
+  <select id="state">
+    <option value=""> --Select state-- </option>
+      <option value="MH">Maharashtra</option>
+    <option value="GJ">Gujarat</option>
+  </select>
+
+<select id="city">
+  <option value=""> --Select City</soption>
+</select>  
+
+<script>
+
+$(function(){
+  let cities = {
+    MH: ["Mumbai", "Pune", "Dhule"],
+    GJ: ["Surat", "Anand", "Vapi"]
+  };
+
+  $("#state").change(function(){
+    let state = $(this).val();
+
+    $("#city").html('<option value= ""> --Select City--</option>');
+
+    if(state){
+      for(let city of cities[state]){
+        $("#city").append(`<option value="${city}">${city}</option>`);
+      }
+    }
+  });
+});
+</script>
+
+</body>
+</html>

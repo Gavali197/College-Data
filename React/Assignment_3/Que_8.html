@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat App</title>
+  <script src="../Assets/jQuary.js"></script>
+  <style>
+    #chatBox {
+      border:1px solid #000; 
+      height: 50px;; 
+      overflow:auto; 
+      padding:5px;
+      margin-bottom:5px;
+    }
+    #chatBox div {
+      padding: 3px 5px;
+      margin: 2px 0;
+      background:#f0f0f0;
+      border-radius:4px;
+    }
+  </style>
+</head>
+<body>
+  <div id="chatBox"></div>
+  <input type="text" id="msg" placeholder="Type your message">
+  <button id="send">Send</button>
+
+  <script>
+    var messages = [];
+
+    function loadMessages() {
+      $("#chatBox").empty();
+      messages.forEach(msg => {
+        $("#chatBox").append("<div>" + msg + "</div>");
+      });
+      // Scroll to bottom
+      $("#chatBox").scrollTop($("#chatBox")[0].scrollHeight);
+    }
+
+    $("#send").click(function(){
+      var text = $("#msg").val().trim();
+      if(text !== ""){
+        messages.push(text);   // add message to array
+        $("#msg").val("");      // clear input
+        loadMessages();         // refresh chat
+      }
+    });
+
+    // Optional: press Enter to send message
+    $("#msg").keypress(function(e){
+      if(e.which == 13){ // Enter key
+        $("#send").click();
+      }
+    });
+  </script>
+</body>
+</html>

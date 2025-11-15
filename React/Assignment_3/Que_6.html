@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AJAX JSON</title>
+  <script src="../Assets/jQuary.js"></script>
+</head>
+<body>
+
+  <button id="loadBooks">Load Books</button>
+  <ul id="booksList"></ul>
+
+  <script>
+    $(function(){
+      $("#loadBooks").click(function(){
+        $.ajax({
+          url: "https://api.sampleapis.com/books/mystery", // ✅ Correct API endpoint
+          method: "GET",
+          success: function(data){
+            $("#booksList").empty();
+            data.slice(0,5).forEach(book => { 
+              $("#booksList").append("<li>" + book.title + " by " + book.author + "</li>");
+            });
+          },
+          error: function(){
+            alert("API Not Responding ❌");
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

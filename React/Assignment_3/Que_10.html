@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <script src="../Assets/jQuary.js"></script>
+</head>
+<body>
+  <h1>Weather App</h1>
+  <label for="city">Enter city name:</label>
+  <input type="text" id="city" placeholder="e.g., Surat">
+  <button id="getWeather">Get Weather</button>
+  <div id="weather"></div>
+
+  <script>
+    const API_KEY = 'YOUR_API_KEY'; // Replace with your actual API key
+
+    function fetchWeather(city) {
+      $.ajax({
+        url: `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`,
+        method: 'GET',
+        success: function(data) {
+          const weatherInfo = `
+            <p><strong>${data.name}, ${data.sys.country}</strong></p>
+            <p>Temperature: ${data.main.temp}°C</p>
+            <p>Humidity: ${data.main.humidity}%</p>
+            <p>Weather: ${data.weather[0].description}</p>
+            <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}.png" alt="Weather icon">
+          `;
+          $('#weather').html(weatherInfo);
+        },
+        error: function() {
+          $('#weather').text('City not found!');
+        }
+      });
+    }
+
+    $('#getWeather').click(function() {
+      const city = $('#city').val();
+      if (city) {
+        fetchWeather(city);
+      } else {
+        $('#weather').text('Please enter a city name.');
+      }
+    });
+  </script>
+</body>
+</html>

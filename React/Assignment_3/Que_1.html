@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Form</title>
+  <script src="../Assets/jQuary.js"></script>
+</head>
+<body>
+
+  <form id="myform">
+    <label>Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label>Email:</label>
+    <input type="email" id="email"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    $(function(){
+      $('#myform').on("submit", function(e){
+        e.preventDefault();
+
+        let name = $("#name").val().trim();
+        let email = $("#email").val().trim();
+
+        if(!name || !email){
+          alert("Please data dedo");
+        } else {
+          alert(`Name: ${name}\nEmail: ${email}`);
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

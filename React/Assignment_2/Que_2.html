@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern To-Do List</title>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Poppins, sans-serif;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: #ffffffc9;
+      padding: 25px;
+      border-radius: 15px;
+      width: 380px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      backdrop-filter: blur(10px);
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 15px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .input-area {
+      display: flex;
+      gap: 10px;
+    }
+
+    input {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      background: #f2f2f2;
+      font-size: 14px;
+    }
+
+    #addBtn {
+      padding: 12px;
+      border: none;
+      background: #0078ff;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    #addBtn:hover { background: #005fcc; }
+
+    ul {
+      list-style: none;
+      margin-top: 15px;
+      max-height: 250px;
+      overflow-y: auto;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #ffffff;
+      padding: 10px;
+      margin-top: 8px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    li:hover { transform: scale(1.02); }
+
+    li.completed span { text-decoration: line-through; color: #777; }
+
+    input[type="checkbox"] { cursor: pointer; }
+
+    .btn {
+      border: none;
+      cursor: pointer;
+      padding: 5px 10px;
+      border-radius: 6px;
+      color: white;
+      font-size: 12px;
+      transition: 0.3s;
+    }
+    .edit { background: #ff9800; }
+    .edit:hover { background: #e68900; }
+    .delete { background: #e91e63; }
+    .delete:hover { background: #c2185b; }
+
+    .counter {
+      margin-top: 12px;
+      text-align: center;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>📝 To-Do Manager</h2>
+
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="Enter new task...">
+      <button id="addBtn">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+    <div class="counter">Pending Tasks: <span id="count">0</span></div>
+  </div>
+
+  <script>
+    const input = document.getElementById("taskInput");
+    const addBtn = document.getElementById("addBtn");
+    const list = document.getElementById("taskList");
+    const count = document.getElementById("count");
+    let pending = 0;
+
+    addBtn.onclick = () => {
+      const text = input.value.trim();
+      if (!text) return alert("Enter a task!");
+
+      const li = document.createElement("li");
+      const span = document.createElement("span");
+      span.textContent = text;
+
+      const check = document.createElement("input");
+      check.type = "checkbox";
+      check.onchange = () => {
+        li.classList.toggle("completed");
+        pending += check.checked ? -1 : 1;
+        count.textContent = pending;
+      };
+
+      const editBtn = document.createElement("button");
+      editBtn.textContent = "Edit";
+      editBtn.className = "btn edit";
+      editBtn.onclick = () => {
+        const newText = prompt("Edit task:", span.textContent);
+        if (newText) span.textContent = newText;
+      };
+
+      const delBtn = document.createElement("button");
+      delBtn.textContent = "Del";
+      delBtn.className = "btn delete";
+      delBtn.onclick = () => {
+        if (!check.checked) pending--;
+        li.remove();
+        count.textContent = pending;
+      };
+
+      li.append(check, span, editBtn, delBtn);
+      list.appendChild(li);
+      pending++;
+      count.textContent = pending;
+      input.value = "";
+    };
+  </script>
+
+</body>
+</html>
