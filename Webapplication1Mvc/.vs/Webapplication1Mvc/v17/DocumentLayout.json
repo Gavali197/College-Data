@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\controllers\\productgstdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\controllers\\productgstdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\views\\productgstdetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\views\\productgstdetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\views\\productgstdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\views\\productgstdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\views\\productgstdetails\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\views\\productgstdetails\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\models\\productgstdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\models\\productgstdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|c:\\users\\digit\\desktop\\exam\\msc ict 2\\internal c#\\webapplication1mvc\\webapplication1mvc\\models\\practice1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA57BC2-FDC0-4201-A29B-1D345FBA0F51}|Webapplication1Mvc\\Webapplication1Mvc.csproj|solutionrelative:webapplication1mvc\\models\\practice1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Program.cs",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Program.cs",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Program.cs",
+              "RelativeToolTip": "Webapplication1Mvc\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T10:44:41.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Webapplication1Mvc\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T10:50:54.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Views\\ProductGstdetails\\Index.cshtml",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Views\\ProductGstdetails\\Index.cshtml",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Views\\ProductGstdetails\\Index.cshtml",
+              "RelativeToolTip": "Webapplication1Mvc\\Views\\ProductGstdetails\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwCsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T10:56:59.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductGstdetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Controllers\\ProductGstdetailsController.cs",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Controllers\\ProductGstdetailsController.cs",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Controllers\\ProductGstdetailsController.cs",
+              "RelativeToolTip": "Webapplication1Mvc\\Controllers\\ProductGstdetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T10:50:12.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Views\\ProductGstdetails\\Create.cshtml",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Views\\ProductGstdetails\\Create.cshtml",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Views\\ProductGstdetails\\Create.cshtml",
+              "RelativeToolTip": "Webapplication1Mvc\\Views\\ProductGstdetails\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T05:39:39.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Webapplication1Mvc\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T10:48:28.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Views\\ProductGstdetails\\Details.cshtml",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Views\\ProductGstdetails\\Details.cshtml",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Views\\ProductGstdetails\\Details.cshtml",
+              "RelativeToolTip": "Webapplication1Mvc\\Views\\ProductGstdetails\\Details.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-10T06:31:45.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductGstdetail.cs",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Models\\ProductGstdetail.cs",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Models\\ProductGstdetail.cs",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Models\\ProductGstdetail.cs",
+              "RelativeToolTip": "Webapplication1Mvc\\Models\\ProductGstdetail.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T05:54:01.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Models\\Product.cs",
+              "RelativeToolTip": "Webapplication1Mvc\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T05:54:28.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Models\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Models\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Models\\ProductCategory.cs",
+              "RelativeToolTip": "Webapplication1Mvc\\Models\\ProductCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T10:40:18.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Webapplication1Mvc\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T05:37:38.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\appsettings.json",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\appsettings.json",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\appsettings.json",
+              "RelativeToolTip": "Webapplication1Mvc\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-08T10:44:46.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Practice1Context.cs",
+              "DocumentMoniker": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Models\\Practice1Context.cs",
+              "RelativeDocumentMoniker": "Webapplication1Mvc\\Models\\Practice1Context.cs",
+              "ToolTip": "C:\\Users\\digit\\Desktop\\Exam\\MSC ICT 2\\Internal C#\\Webapplication1Mvc\\Webapplication1Mvc\\Models\\Practice1Context.cs",
+              "RelativeToolTip": "Webapplication1Mvc\\Models\\Practice1Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T10:47:18.17Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
