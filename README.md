@@ -11,9 +11,7 @@ Practical Assignment - 1
 
 3) Create a C#.NET Core console application to demonstrate dynamic polymorphism using Generic Interface type implementation.
 
-
-
-
+done 
 
 IOS ASSIGNMENT 
 
